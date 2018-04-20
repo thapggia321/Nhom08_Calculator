@@ -25,7 +25,7 @@ class ViewController: UIViewController {
      }
      else {
         label.text=label.text! + String (sender.tag-1)
-    numberOnscreen=Double(label.text!)!
+    numberOnscreen = Double(label.text!)!
         }
     }
     
